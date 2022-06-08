@@ -6,8 +6,8 @@
 
 .App {
   margin: auto;
-  width: 50%;
-  height: 100%;
+  width: 50vh;
+  min-height: 70vh;
   border: 1px solid black;
   padding: 3px;
   background-color: rgb(226, 223, 223);
@@ -75,4 +75,15 @@
 }
 .screen h1 {
   min-height: 3rem;
+}
+
+.history {
+  /* z-index: 999; */
+  /* position: absolute;
+  bottom: 0;*/
+  margin-top: 4vh;
+  width: 49vh;
+  height: 55vh; 
+  background-color: blue;
+  /* bottom: 0; */
 }
